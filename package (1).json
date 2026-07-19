@@ -1,0 +1,9 @@
+{
+  "name": "ops-dashboard-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Analytics dashboard: Vercel serverless functions + Vercel Postgres",
+  "dependencies": {
+    "@vercel/postgres": "^0.10.0"
+  }
+}

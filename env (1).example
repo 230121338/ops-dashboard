@@ -1,0 +1,9 @@
+# Vercel injects POSTGRES_URL (and related vars) automatically once you
+# add a Postgres storage integration to your project — you don't set this
+# by hand in production.
+POSTGRES_URL=
+
+# Set this yourself in Vercel's dashboard (Project > Settings >
+# Environment Variables). Pick any long random string. You'll put the
+# same value in the seed URL: /api/seed?secret=THIS_VALUE
+SEED_SECRET=
